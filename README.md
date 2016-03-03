@@ -9,7 +9,7 @@ More info on creating custom JourneyBuilder Activites
 - https://code.exacttarget.com/app-development/journey-builder-development/
 
 ---
-## CONFIGURATON
+## CONFIGURATION
 
 There is a sample config file located in /config/sample.json, you will need to create one for each of you enviroments development.json and production.json 
 
