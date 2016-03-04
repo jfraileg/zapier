@@ -13,7 +13,7 @@ More info on creating custom JourneyBuilder Activites
 
 There is a sample config file located in /config/sample.json, you will need to create one for each of you enviroments development.json and production.json 
 
-The zapier-config folder contains screenshots of how to congigure you custom zap.
+The zapier-config folder contains screenshots of how to configure your custom zap.
 
 This project uses  [convict](https://github.com/mozilla/node-convict) for configuration.
 
