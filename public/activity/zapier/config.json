@@ -31,7 +31,7 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "257f314a-612e-47d3-906c-59db5792dadd",
+    	"applicationExtensionKey": "{{KEY}}",
         "defaults": { 
             "method": "POST",
             "format": "JSON" 
