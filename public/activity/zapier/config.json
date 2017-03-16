@@ -13,23 +13,11 @@
         }
     },
     "arguments": {
-        "execute": {       
-			"inArguments":[
-                {
-                    "contactKey": "{{Contact.Key}}",
-                    "email": "{{Contact.Default.Email}}"
-                }							
-			],
-            "outArguments": [],			
-			"url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/execute",
-            "verb": "POST",
-            "body": "",
-            "header": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 10000
-        }
-    },
+        "execute": {
+           "url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/execute"
+       }
+   },
+            
     "configurationArguments": {
     	"applicationExtensionKey": "{{KEY}}",
         "defaults": { 
