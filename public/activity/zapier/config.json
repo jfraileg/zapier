@@ -21,7 +21,7 @@
                 }							
 			],
             "outArguments": [],			
-			"url": "https://zapier.com/app/editor/19877320/execute",
+			"url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -37,26 +37,26 @@
             "format": "JSON" 
         },             
         "save": {
-        	"url": "https://zapier.com/app/editor/19877320/save/",
+        	"url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/save",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://zapier.com/app/editor/19877320/publish/",
+        	"url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://zapier.com/app/editor/19877320/validate/",
+        	"url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://github.com/jfraileg/zapier/activity/",
+    	"url": "https://{{APP_NAME}}.herokuapp.com/activity/zapier/",
         "height": 400,
         "width": 500
     }
