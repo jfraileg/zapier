@@ -21,7 +21,7 @@
                 }							
 			],
             "outArguments": [],			
-			"url": "https://YOUR_URL/zapier/execute",
+			"url": "https://zapier.com/app/editor/19877320/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -31,32 +31,32 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "YOUR_APPLICATION_KEY_IN_APP_CENTER",
+    	"applicationExtensionKey": "257f314a-612e-47d3-906c-59db5792dadd",
         "defaults": { 
             "method": "POST",
             "format": "JSON" 
         },             
         "save": {
-        	"url": "https://YOUR_URL/zapier/save/",
+        	"url": "https://zapier.com/app/editor/19877320/save/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://YOUR_URL/zapier/publish/",
+        	"url": "https://zapier.com/app/editor/19877320/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://YOUR_URL/zapier/validate/",
+        	"url": "https://zapier.com/app/editor/19877320/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://YOUR_URL/activity/zapier/",
+    	"url": "https://github.com/jfraileg/zapier/activity/",
         "height": 400,
         "width": 500
     }
