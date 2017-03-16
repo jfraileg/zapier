@@ -3,12 +3,12 @@
 // -------------------
 var express     = require('express');
 var http        = require('http');
-var JWT         = require('./lib/jwtDecoder');
+var JWT         = require('./lib/sfmc');
 var path        = require('path');
 var request     = require('request');
 var routes      = require('./routes');
-var activity    = require('./routes/activity');
-var trigger     = require('./routes/trigger');
+var activity    = require('./routes/zapier');
+var trigger     = require('./routes/event');
 var config      = require('./config/default');
 var parseString = require('xml2js').parseString;
 var fs = require('fs');
